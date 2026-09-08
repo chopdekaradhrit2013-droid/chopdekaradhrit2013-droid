@@ -1,75 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="240" viewBox="0 0 960 240">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="220" viewBox="0 0 960 220">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#14151c"/>
-      <stop offset="100%" stop-color="#07080c"/>
+      <stop offset="0%" stop-color="#1a3a6b"/>
+      <stop offset="55%" stop-color="#2b6cb0"/>
+      <stop offset="100%" stop-color="#7eb6e8"/>
     </linearGradient>
-    <radialGradient id="spot" cx="62%" cy="58%" r="42%">
-      <stop offset="0%" stop-color="#c45c2c" stop-opacity="0.28"/>
-      <stop offset="100%" stop-color="#c45c2c" stop-opacity="0"/>
+    <radialGradient id="ballGrad" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#f4f4f4"/>
+      <stop offset="100%" stop-color="#c8c8c8"/>
     </radialGradient>
-    <filter id="soft">
-      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000" flood-opacity="0.45"/>
-    </filter>
     <style>
       .name {
-        font-family: "Avenir Next", "Segoe UI", Futura, "Trebuchet MS", sans-serif;
+        font-family: "Avenir Next Condensed", "Segoe UI", Futura, "Trebuchet MS", sans-serif;
         font-weight: 800;
-        font-size: 64px;
-        letter-spacing: 1px;
-        fill: #f2e6d0;
-      }
-      .sub {
-        font-family: "Avenir Next", "Segoe UI", sans-serif;
-        font-size: 14px;
-        letter-spacing: 3px;
-        fill: #8b8a86;
+        font-size: 58px;
+        fill: #ffffff;
       }
     </style>
   </defs>
 
-  <rect width="960" height="240" fill="url(#bg)"/>
-  <rect width="960" height="240" fill="url(#spot)"/>
-  <rect x="0" y="188" width="960" height="52" fill="#0c0d12"/>
-  <rect x="0" y="188" width="960" height="2" fill="#2a2c34"/>
+  <rect width="960" height="220" fill="url(#bg)"/>
 
-  <text x="480" y="92" text-anchor="middle" class="name">CHOPDEKAR</text>
+  <text x="118" y="128" class="name">Chopdekar Adhr</text>
+  <rect x="612" y="86" width="8" height="44" rx="2" fill="#ffffff"/>
+  <text x="628" y="128" class="name">t</text>
 
-  <text x="318" y="168" class="name">ADHR</text>
-  <text id="letterI" x="508" y="168" class="name">I</text>
-  <text x="548" y="168" class="name">T</text>
-
-  <text x="480" y="222" text-anchor="middle" class="sub">BROWSER-FIRST BUILDER</text>
-
-  <g id="lamp" filter="url(#soft)" transform="translate(860,40)">
-    <g id="rig">
-      <ellipse cx="0" cy="148" rx="28" ry="7" fill="#1a1b20"/>
-      <rect x="-18" y="132" width="36" height="16" rx="4" fill="#3a2a22"/>
-      <rect x="-16" y="134" width="32" height="6" fill="#c45c2c"/>
-      <g id="arm" transform="rotate(-18 0 132)">
-        <rect x="-4" y="62" width="8" height="72" rx="3" fill="#d4cfc4"/>
-        <circle cx="0" cy="62" r="6" fill="#c45c2c"/>
-        <g id="head" transform="rotate(12 0 58)">
-          <path d="M-18,58 L18,58 L12,28 L-12,28 Z" fill="#c45c2c"/>
-          <ellipse cx="0" cy="28" rx="12" ry="5" fill="#f2e6d0"/>
-          <ellipse cx="0" cy="30" rx="7" ry="3" fill="#ffe8a3" opacity="0.95"/>
-        </g>
-      </g>
-    </g>
+  <g id="foot" transform="translate(18,148) rotate(-28)">
+    <rect x="18" y="-8" width="22" height="14" rx="6" fill="#e8c4a8"/>
+    <path d="M36,-16 C52,-22 78,-10 82,2 C84,10 78,16 64,18 L36,14 C28,12 22,6 22,-2 Z" fill="#1a1a1a"/>
+    <path d="M48,-8 C60,-10 72,-2 74,4" fill="none" stroke="#3a3a3a" stroke-width="2"/>
+    <animateTransform attributeName="transform" type="rotate"
+      values="-28; -28; 18; -8; -8"
+      keyTimes="0;0.12;0.22;0.32;1"
+      dur="3.6s" repeatCount="indefinite"
+      additive="sum"/>
   </g>
 
-  <animateTransform xlink:href="#lamp" attributeName="transform" type="translate"
-    values="860,40; 720,8; 640,40; 580,-6; 530,40; 522,18; 516,36"
-    keyTimes="0;0.16;0.28;0.44;0.58;0.72;1"
-    calcMode="spline"
-    keySplines="0.3 0 0.7 1; 0.3 0 0.7 1; 0.3 0 0.7 1; 0.3 0 0.7 1; 0.3 0 0.7 1; 0.2 0 0.4 1"
-    dur="3.2s" repeatCount="indefinite"/>
-
-  <animateTransform xlink:href="#arm" attributeName="transform" type="rotate"
-    values="-18 0 132;-38 0 132;-8 0 132;-42 0 132;6 0 132;-20 0 132;0 0 132"
-    keyTimes="0;0.16;0.28;0.44;0.58;0.72;1"
-    dur="3.2s" repeatCount="indefinite"/>
-
-  <animate xlink:href="#letterI" attributeName="opacity"
-    values="1;1;1;1;1;0;0" keyTimes="0;0.5;0.58;0.65;0.72;0.78;1" dur="3.2s" repeatCount="indefinite"/>
+  <g id="ball">
+    <circle r="13" fill="url(#ballGrad)" stroke="#222" stroke-width="1.5"/>
+    <path d="M-8,-6 Q0,-14 8,-6" fill="none" stroke="#222" stroke-width="1.2"/>
+    <path d="M-9,2 Q0,0 9,2" fill="none" stroke="#222" stroke-width="1.2"/>
+    <path d="M-3,-10 Q-6,0 -2,10" fill="none" stroke="#222" stroke-width="1.1"/>
+    <path d="M3,-10 Q6,0 2,10" fill="none" stroke="#222" stroke-width="1.1"/>
+    <animateTransform attributeName="transform" type="translate"
+      values="78,150; 78,150; 180,70; 320,40; 460,48; 580,62; 616,74; 616,74"
+      keyTimes="0;0.18;0.32;0.46;0.58;0.70;0.80;1"
+      dur="3.6s" repeatCount="indefinite"
+      calcMode="spline"
+      keySplines="0 0 1 1; 0.2 0 0.4 1; 0.3 0 0.7 1; 0.3 0 0.7 1; 0.3 0 0.7 1; 0.25 0 0.5 1; 0 0 1 1"/>
+    <animateTransform attributeName="transform" type="rotate"
+      values="0;0;120;260;400;560;700;700"
+      keyTimes="0;0.18;0.32;0.46;0.58;0.70;0.80;1"
+      dur="3.6s" repeatCount="indefinite"
+      additive="sum"/>
+    <animateTransform attributeName="transform" type="scale"
+      values="1;1;1;1;1;1;0.55;0.55"
+      keyTimes="0;0.18;0.32;0.46;0.58;0.70;0.80;1"
+      dur="3.6s" repeatCount="indefinite"
+      additive="sum"/>
+  </g>
 </svg>
