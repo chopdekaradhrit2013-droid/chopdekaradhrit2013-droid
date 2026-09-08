@@ -12,6 +12,12 @@
 
 </div>
 
+<br/>
+
+<div align="center">
+  <img src="./adhrit-card.svg" alt="const adhrit = { pronouns, code, funFact }" width="620" />
+</div>
+
 ---
 
 ### about
