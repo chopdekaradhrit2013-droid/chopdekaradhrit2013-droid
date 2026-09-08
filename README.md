@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="./name-intro.svg?v=1" alt="Chopdekar Adhrit" width="960" />
+  <img src="./name-intro.svg?v=2" alt="Chopdekar Adhrit" width="960" />
 
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=740&lines=hey.+i'm+adhrit;i+build+things+that+run+in+the+browser;games+%C2%B7+notes+apps+%C2%B7+social+experiments;random+guy+alive.+still+shipping." alt="Typing SVG" />
 
