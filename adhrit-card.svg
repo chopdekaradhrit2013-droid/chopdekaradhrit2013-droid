@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="280" viewBox="0 0 620 280">
+  <defs>
+    <style>
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      .mono {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Courier New', monospace;
+        font-size: 15px;
+      }
+      .gutter {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Courier New', monospace;
+        font-size: 13px;
+        fill: #6e7681;
+      }
+      .caret {
+        fill: #58a6ff;
+        animation: blink 0.9s steps(1) infinite;
+      }
+    </style>
+  </defs>
+
+  <rect width="620" height="280" rx="18" fill="#010409"/>
+  <rect x="18" y="16" width="584" height="248" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <path d="M18 16h584a12 12 0 0 1 12 12v16H6V28a12 12 0 0 1 12-12z" fill="#161b22"/>
+
+  <circle cx="42" cy="34" r="5.5" fill="#ff5f56"/>
+  <circle cx="62" cy="34" r="5.5" fill="#ffbd2e"/>
+  <circle cx="82" cy="34" r="5.5" fill="#27c93f"/>
+  <text x="310" y="39" text-anchor="middle" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">README.md</text>
+
+  <text x="40" y="84" class="gutter">1</text>
+  <text x="40" y="114" class="gutter">2</text>
+  <text x="40" y="144" class="gutter">3</text>
+  <text x="40" y="174" class="gutter">4</text>
+  <text x="40" y="204" class="gutter">5</text>
+
+  <text x="72" y="84" class="mono">
+    <tspan fill="#ff7b72">const</tspan><tspan fill="#d2a8ff"> adhrit</tspan><tspan fill="#c9d1d9"> = {</tspan>
+  </text>
+  <text x="72" y="114" class="mono">
+    <tspan fill="#79c0ff">  pronouns</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#a5d6ff">"he/him"</tspan><tspan fill="#c9d1d9">,</tspan>
+  </text>
+  <text x="72" y="144" class="mono">
+    <tspan fill="#79c0ff">  code</tspan><tspan fill="#c9d1d9">: [</tspan><tspan fill="#a5d6ff">"Javascript"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"Python"</tspan><tspan fill="#c9d1d9">],</tspan>
+  </text>
+
+  <text x="72" y="174" class="mono">
+    <tspan fill="#79c0ff">  funFact</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#d2a8ff">print</tspan><tspan fill="#c9d1d9">(</tspan>
+  </text>
+
+  <text id="d1" x="268" y="174" class="mono" fill="#8b949e">.</text>
+  <text id="d2" x="276" y="174" class="mono" fill="#8b949e">.</text>
+  <text id="d3" x="284" y="174" class="mono" fill="#8b949e">.</text>
+
+  <text x="268" y="174" class="mono" fill="#a5d6ff">
+    <tspan id="c0">"</tspan>
+    <tspan id="c1">b</tspan><tspan id="c2">u</tspan><tspan id="c3">i</tspan><tspan id="c4">l</tspan><tspan id="c5">d</tspan><tspan id="c6">s</tspan>
+    <tspan id="c7"> </tspan>
+    <tspan id="c8">f</tspan><tspan id="c9">r</tspan><tspan id="c10">o</tspan><tspan id="c11">m</tspan>
+    <tspan id="c12"> </tspan>
+    <tspan id="c13">a</tspan>
+    <tspan id="c14"> </tspan>
+    <tspan id="c15">b</tspan><tspan id="c16">r</tspan><tspan id="c17">o</tspan><tspan id="c18">w</tspan><tspan id="c19">s</tspan><tspan id="c20">e</tspan><tspan id="c21">r</tspan>
+    <tspan id="c22">"</tspan>
+  </text>
+
+  <text x="72" y="204" class="mono" fill="#c9d1d9">}</text>
+  <text id="close" x="268" y="174" class="mono" fill="#c9d1d9">)</text>
+
+  <rect id="caret" class="caret" width="7" height="16" rx="1" x="292" y="160"/>
+
+  <animate href="#d3" attributeName="opacity" values="1;1;0;0" keyTimes="0;0.166;0.167;1" dur="12s" repeatCount="indefinite"/>
+  <animate href="#d2" attributeName="opacity" values="1;1;0;0" keyTimes="0;0.200;0.201;1" dur="12s" repeatCount="indefinite"/>
+  <animate href="#d1" attributeName="opacity" values="1;1;0;0" keyTimes="0;0.233;0.234;1" dur="12s" repeatCount="indefinite"/>
+
+  <set href="#c0" attributeName="opacity" to="0"/>
+  <set href="#c1" attributeName="opacity" to="0"/>
+  <set href="#c2" attributeName="opacity" to="0"/>
+  <set href="#c3" attributeName="opacity" to="0"/>
+  <set href="#c4" attributeName="opacity" to="0"/>
+  <set href="#c5" attributeName="opacity" to="0"/>
+  <set href="#c6" attributeName="opacity" to="0"/>
+  <set href="#c7" attributeName="opacity" to="0"/>
+  <set href="#c8" attributeName="opacity" to="0"/>
+  <set href="#c9" attributeName="opacity" to="0"/>
+  <set href="#c10" attributeName="opacity" to="0"/>
+  <set href="#c11" attributeName="opacity" to="0"/>
+  <set href="#c12" attributeName="opacity" to="0"/>
+  <set href="#c13" attributeName="opacity" to="0"/>
+  <set href="#c14" attributeName="opacity" to="0"/>
+  <set href="#c15" attributeName="opacity" to="0"/>
+  <set href="#c16" attributeName="opacity" to="0"/>
+  <set href="#c17" attributeName="opacity" to="0"/>
+  <set href="#c18" attributeName="opacity" to="0"/>
+  <set href="#c19" attributeName="opacity" to="0"/>
+  <set href="#c20" attributeName="opacity" to="0"/>
+  <set href="#c21" attributeName="opacity" to="0"/>
+  <set href="#c22" attributeName="opacity" to="0"/>
+
+  <animate href="#c0" attributeName="opacity" values="0;0;1;1" keyTimes="0;0.266;0.267;1" dur="12s" repeatCount="indefinite"/>
+  <animate href="#c1" attributeName="opacity" values="0;0;1;1" keyTimes="0;0.283;0.284;1" dur="12s" repeatCount="indefinite"/>
+  <animate href="#c2" attributeName="opacity" values="0;0;1;1" keyTimes="0;0.300;0.301;1" dur="12s" repeatCount="indefinite"/>
+  <animate href="#c3" attributeName="opacity" values="0;0;1;1" keyTimes="0;0.317;0.318;1" dur="12s" repeatCount="indefinite"/>
+  <animate href="#c4" attributeName="opacity" values="0;0;1;1" keyTimes="0;0.334;0.335;1" dur="12s" repeatCount="indefinite"/>
+  <animate href="#c5" attributeName="opacity" values="0;0;1;1" keyTimes="0;0.351;0.352;1" dur="12s" repeatCount="indefinite"/>
+  <animate href="#c6" attributeName="opacity" values="0;0;1;1" keyTimes="0;0.368;0.369;1" dur="12s" repeatCount="indefinite"/>
+  <animate href="#c7" attributeName="opacity" values="0;0;1;1" keyTimes="0;0.385;0.386;1" dur="12s" repeatCount="indefinite"/>
+  <animate href="#c8" attributeName="opacity" values="0;0;1;1" keyTimes="0;0.402;0.403;1" dur="12s" repeatCount="indefinite"/>
+  <animate href="#c9" attributeName="opacity" values="0;0;1;1" keyTimes="0;0.419;0.420;1" dur="12s" repeatCount="indefinite"/>
+  <animate href="#c10" attributeName="opacity" values="0;0;1;1" keyTimes="0;0.436;0.437;1" dur="12s" repeatCount="indefinite"/>
+  <animate href="#c11" attributeName="opacity" values="0;0;1;1" keyTimes="0;0.453;0.454;1" dur="12s" repeatCount="indefinite"/>
+  <animate href="#c12" attributeName="opacity" values="0;0;1;1" keyTimes="0;0.470;0.471;1" dur="12s" repeatCount="indefinite"/>
+  <animate href="#c13" attributeName="opacity" values="0;0;1;1" keyTimes="0;0.487;0.488;1" dur="12s" repeatCount="indefinite"/>
+  <animate href="#c14" attributeName="opacity" values="0;0;1;1" keyTimes="0;0.504;0.505;1" dur="12s" repeatCount="indefinite"/>
+  <animate href="#c15" attributeName="opacity" values="0;0;1;1" keyTimes="0;0.521;0.522;1" dur="12s" repeatCount="indefinite"/>
+  <animate href="#c16" attributeName="opacity" values="0;0;1;1" keyTimes="0;0.538;0.539;1" dur="12s" repeatCount="indefinite"/>
+  <animate href="#c17" attributeName="opacity" values="0;0;1;1" keyTimes="0;0.555;0.556;1" dur="12s" repeatCount="indefinite"/>
+  <animate href="#c18" attributeName="opacity" values="0;0;1;1" keyTimes="0;0.572;0.573;1" dur="12s" repeatCount="indefinite"/>
+  <animate href="#c19" attributeName="opacity" values="0;0;1;1" keyTimes="0;0.589;0.590;1" dur="12s" repeatCount="indefinite"/>
+  <animate href="#c20" attributeName="opacity" values="0;0;1;1" keyTimes="0;0.606;0.607;1" dur="12s" repeatCount="indefinite"/>
+  <animate href="#c21" attributeName="opacity" values="0;0;1;1" keyTimes="0;0.623;0.624;1" dur="12s" repeatCount="indefinite"/>
+  <animate href="#c22" attributeName="opacity" values="0;0;1;1" keyTimes="0;0.640;0.641;1" dur="12s" repeatCount="indefinite"/>
+
+  <animate href="#close" attributeName="x" values="300;300;292;284;276;276;284;292;300;308;316;324;332;340;348;356;364;372;380;388;396;404;412;420;428;436;444;452" keyTimes="0;0.166;0.200;0.233;0.266;0.266;0.283;0.300;0.317;0.334;0.351;0.368;0.385;0.402;0.419;0.436;0.453;0.470;0.487;0.504;0.521;0.538;0.555;0.572;0.589;0.606;0.623;0.640" dur="12s" repeatCount="indefinite" calcMode="discrete"/>
+
+  <animate href="#caret" attributeName="x" values="294;294;286;278;270;270;278;286;294;302;310;318;326;334;342;350;358;366;374;382;390;398;406;414;422;430;438;446" keyTimes="0;0.166;0.200;0.233;0.266;0.266;0.283;0.300;0.317;0.334;0.351;0.368;0.385;0.402;0.419;0.436;0.453;0.470;0.487;0.504;0.521;0.538;0.555;0.572;0.589;0.606;0.623;0.640" dur="12s" repeatCount="indefinite" calcMode="discrete"/>
+</svg>
