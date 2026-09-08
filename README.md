@@ -6,7 +6,8 @@
 
   <br/>
 
-  [![Website](https://img.shields.io/badge/Padho_Ek_Raat_Pehle-0d1117?style=for-the-badge&logo=vercel&logoColor=white)](https://padhoekraatpehle.vercel.app)
+  [![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/chopdekaradhrit2013-droid)
+  [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/chopdekaradhrit2013-droid)
   [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chopdekaradhrit2013-droid)
   ![Visitors](https://komarev.com/ghpvc/?username=chopdekaradhrit2013-droid&style=for-the-badge&color=58A6FF)
 
@@ -30,7 +31,7 @@ building from an iPad and a browser. no heavy engines. just React, TypeScript, C
 
 right now i'm usually somewhere between:
 - 🎮 browser games (pixel hunts, runners, tactical FPS experiments)
-- 📚 study tools for class 6–10 (`Padho Ek Raat Pehle`)
+- 📚 study tools for class 6–10
 - ✨ small product sites that feel more like brands than templates
 
 ### stack
@@ -43,7 +44,6 @@ right now i'm usually somewhere between:
 
 | project | what it is |
 | --- | --- |
-| [Padho Ek Raat Pehle](https://padhoekraatpehle.vercel.app) | notes platform for class 6–10 |
 | [Pixel Pursuit](https://github.com/chopdekaradhrit2013-droid/pixelpursuit) | pixel-art hunter / runner in the browser |
 | [The Hunt](https://github.com/chopdekaradhrit2013-droid/the-hunt) | 2D pixel survival — runner vs hunter |
 | [Echo](https://github.com/chopdekaradhrit2013-droid/echo-app) | social web app — posts, reels, realtime chat |
