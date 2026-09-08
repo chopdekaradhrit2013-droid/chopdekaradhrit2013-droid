@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,6,12,24&height=220&section=header&text=Adhrit&fontSize=80&fontAlignY=35&desc=browser-first%20builder%20%C2%B7%20games%20%C2%B7%20edtech%20%C2%B7%20web&descAlignY=58&descSize=16&animation=twinkling&fontColor=ffffff" alt="header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,6,12,24&height=220&section=header&text=Chopdekar%20Adhrit&fontSize=56&fontAlignY=35&desc=browser-first%20builder%20%C2%B7%20games%20%C2%B7%20edtech%20%C2%B7%20web&descAlignY=58&descSize=16&animation=twinkling&fontColor=ffffff" alt="header" />
 
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=740&lines=hey.+i'm+adhrit;i+build+things+that+run+in+the+browser;games+%C2%B7+notes+apps+%C2%B7+social+experiments;random+guy+alive.+still+shipping." alt="Typing SVG" />
 
