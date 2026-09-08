@@ -15,7 +15,11 @@
 <br/>
 
 <div align="center">
-  <img src="./adhrit-card.svg?v=2" alt="const adhrit = { pronouns, code, funFact }" width="620" />
+  <img src="./adhrit-card.svg?v=3" alt="const adhrit = { pronouns, code, funFact }" width="640" />
+</div>
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=1800&pause=900&color=A5D6FF&background=0D1117&center=true&vCenter=true&width=560&lines=print(...) ;print(..);print(.);print(%22Hi+lol%2C+Adhrit+here%22)" alt="funFact typing" />
 </div>
 
 ---
