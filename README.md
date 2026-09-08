@@ -1,6 +1,8 @@
 <div align="center">
 
-  <img src="./name-intro.svg?v=2" alt="Chopdekar Adhrit" width="960" />
+# Chopdekar Adhrit
+
+  <img src="https://cdn.jsdelivr.net/gh/chopdekaradhrit2013-droid/chopdekaradhrit2013-droid@f438e7a407cc9704a40e44a233abd4e609218902/name-intro.svg" alt="Chopdekar Adhrit football kick intro" width="960" />
 
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=740&lines=hey.+i'm+adhrit;i+build+things+that+run+in+the+browser;games+%C2%B7+notes+apps+%C2%B7+social+experiments;random+guy+alive.+still+shipping." alt="Typing SVG" />
 
@@ -16,7 +18,7 @@
 <br/>
 
 <div align="center">
-  <img src="./adhrit-card.svg?v=3" alt="const adhrit = { pronouns, code, funFact }" width="640" />
+  <img src="https://cdn.jsdelivr.net/gh/chopdekaradhrit2013-droid/chopdekaradhrit2013-droid@2522c9ab301eb73555d4129302ad08293f7991e7/adhrit-card.svg" alt="const adhrit = { pronouns, code, funFact }" width="640" />
 </div>
 
 <div align="center">
