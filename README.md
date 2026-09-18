@@ -4,7 +4,7 @@
 
   <img src="https://cdn.jsdelivr.net/gh/chopdekaradhrit2013-droid/chopdekaradhrit2013-droid@f438e7a407cc9704a40e44a233abd4e609218902/name-intro.svg" alt="Chopdekar Adhrit football kick intro" width="960" />
 
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=740&lines=hey.+i'm+adhrit;i+build+things+that+run+in+the+browser;games+%C2%B7+notes+apps+%C2%B7+social+experiments;random+guy+alive.+still+shipping." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=740&lines=hey%2C+i'm+adhrit;i+build+things+that+run+in+the+browser;games+%C2%B7+study+tools+%C2%B7+web+experiments;still+shipping." alt="Typing SVG" />
 
   <br/>
 
@@ -21,19 +21,16 @@
   <img src="https://cdn.jsdelivr.net/gh/chopdekaradhrit2013-droid/chopdekaradhrit2013-droid@2522c9ab301eb73555d4129302ad08293f7991e7/adhrit-card.svg" alt="const adhrit = { pronouns, code, funFact }" width="640" />
 </div>
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=1800&pause=900&color=A5D6FF&background=0D1117&center=true&vCenter=true&width=560&lines=print(...) ;print(..);print(.);print(%22Hi+lol%2C+Adhrit+here%22)" alt="funFact typing" />
-</div>
-
 ---
 
 ### about
 
-building from an iPad and a browser. no heavy engines. just React, TypeScript, Canvas, PlayCanvas, Babylon, and whatever ships on Vercel.
+Building from an iPad and a browser — no heavy engines, just React, TypeScript, Canvas, PlayCanvas, Babylon, and whatever ships cleanly on Vercel.
 
-right now i'm usually somewhere between:
-- 🎮 browser games (pixel hunts, runners, tactical FPS experiments)
-- 📚 study tools for class 6–10
+Right now, usually somewhere between:
+- 🎮 browser games — pixel hunts, runners, tactical FPS experiments
+- 📚 study tools for classes 6–10
+- 🎯 an advertising discovery platform built section by section
 - ✨ small product sites that feel more like brands than templates
 
 ### stack
@@ -46,10 +43,13 @@ right now i'm usually somewhere between:
 
 | project | what it is |
 | --- | --- |
+| [Apex Protocol](https://github.com/chopdekaradhrit2013-droid) | browser-based multiplayer tactical FPS — PlayCanvas + Supabase |
 | [Pixel Pursuit](https://github.com/chopdekaradhrit2013-droid/pixelpursuit) | pixel-art hunter / runner in the browser |
 | [The Hunt](https://github.com/chopdekaradhrit2013-droid/the-hunt) | 2D pixel survival — runner vs hunter |
 | [Echo](https://github.com/chopdekaradhrit2013-droid/echo-app) | social web app — posts, reels, realtime chat |
 | [ReelFlex](https://github.com/chopdekaradhrit2013-droid/reelflex) | TypeScript web experiment |
+| [ADHUNT](https://github.com/chopdekaradhrit2013-droid) | premium advertising discovery platform |
+| [PadhaiMode](https://github.com/chopdekaradhrit2013-droid) | study companion web app |
 
 ### stats
 
