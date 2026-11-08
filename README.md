@@ -2,8 +2,236 @@
 
 # Chopdekar Adhrit
 
-  <img src="https://cdn.jsdelivr.net/gh/chopdekaradhrit2013-droid/chopdekaradhrit2013-droid@f438e7a407cc9704a40e44a233abd4e609218902/name-intro.svg" alt="Chopdekar Adhrit football kick intro" width="960" />
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="280" viewBox="0 0 800 280" role="img" aria-label="Chopdekar Adhrit - just a vibecoder">
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#21262d"/>
+    </pattern>
+    <linearGradient id="ng" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#7ee7ff"/>
+    </linearGradient>
+    <linearGradient id="ug" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff5ca8"/>
+      <stop offset="1" stop-color="#bc8cff"/>
+    </linearGradient>
+    <linearGradient id="og" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff5ca8"/>
+      <stop offset="0.5" stop-color="#bc8cff"/>
+      <stop offset="1" stop-color="#00e5ff"/>
+    </linearGradient>
+  </defs>
 
+  <style>
+    .a { animation-duration: 14s; animation-iteration-count: infinite; animation-timing-function: linear; }
+    .fb { transform-box: fill-box; }
+
+    /* page layer fade for loop */
+    .page { animation-name: pg; }
+    @keyframes pg { 0%{opacity:1} 94%{opacity:1} 99%{opacity:0} 100%{opacity:0} }
+
+    /* cursor layer */
+    .cursors { animation-name: cf; }
+    @keyframes cf { 0%{opacity:0} 2%{opacity:1} 86%{opacity:1} 92%{opacity:0} 100%{opacity:0} }
+
+    /* card border draw + color settle */
+    .border { stroke-dasharray: 1; animation-name: bd; }
+    @keyframes bd {
+      0%{stroke-dashoffset:1; stroke:#00e5ff}
+      8%{stroke-dashoffset:1; stroke:#00e5ff}
+      38%{stroke-dashoffset:0; stroke:#00e5ff}
+      46%{stroke-dashoffset:0; stroke:#30363d}
+      100%{stroke-dashoffset:0; stroke:#30363d}
+    }
+
+    /* card fill + type covers fade in together */
+    .fillin { opacity: 0; animation-name: fi; }
+    @keyframes fi { 0%{opacity:0} 38%{opacity:0} 41%{opacity:1} 100%{opacity:1} }
+
+    /* texts appear (hidden under covers) */
+    .show { opacity: 0; animation-name: sh; }
+    @keyframes sh { 0%{opacity:0} 41%{opacity:0} 41.5%{opacity:1} 100%{opacity:1} }
+
+    /* typing covers shrink toward the right edge, revealing text left to right */
+    .cov1 { transform-origin: 100% 50%; animation-name: c1k; }
+    @keyframes c1k { 0%{transform:scaleX(1)} 42%{transform:scaleX(1)} 56%{transform:scaleX(0)} 100%{transform:scaleX(0)} }
+    .cov2 { transform-origin: 100% 50%; animation-name: c2k; }
+    @keyframes c2k { 0%{transform:scaleX(1)} 60%{transform:scaleX(1)} 68%{transform:scaleX(0)} 100%{transform:scaleX(0)} }
+
+    /* ruler guides */
+    .gh { transform-origin: 0 50%; animation-name: ghk; }
+    @keyframes ghk {
+      0%{transform:scaleX(0); opacity:.55} 14%{transform:scaleX(0); opacity:.55}
+      22%{transform:scaleX(1); opacity:.55} 78%{transform:scaleX(1); opacity:.55}
+      84%{transform:scaleX(1); opacity:0} 100%{transform:scaleX(1); opacity:0}
+    }
+    .gv { transform-origin: 50% 0; animation-name: gvk; }
+    @keyframes gvk {
+      0%{transform:scaleY(0); opacity:.55} 25%{transform:scaleY(0); opacity:.55}
+      33%{transform:scaleY(1); opacity:.55} 78%{transform:scaleY(1); opacity:.55}
+      84%{transform:scaleY(1); opacity:0} 100%{transform:scaleY(1); opacity:0}
+    }
+
+    /* selection box around name */
+    .sel { animation-name: selk; }
+    @keyframes selk { 0%{opacity:0} 55.5%{opacity:0} 57%{opacity:1} 64%{opacity:1} 66%{opacity:0} 100%{opacity:0} }
+
+    /* tagline underline */
+    .ul { stroke-dasharray: 1; animation-name: ulk; }
+    @keyframes ulk { 0%{stroke-dashoffset:1} 70%{stroke-dashoffset:1} 76%{stroke-dashoffset:0} 100%{stroke-dashoffset:0} }
+
+    /* avatar ring + orb */
+    .ring { stroke-dasharray: 1; animation-name: rk; }
+    @keyframes rk { 0%{stroke-dashoffset:1} 46%{stroke-dashoffset:1} 58%{stroke-dashoffset:0} 100%{stroke-dashoffset:0} }
+    .orb { animation-name: ok; }
+    @keyframes ok { 0%{opacity:0} 58%{opacity:0} 64%{opacity:1} 100%{opacity:1} }
+
+    /* sparkles pop in */
+    .sp1 { transform-origin: 50% 50%; animation-name: s1k; }
+    @keyframes s1k { 0%{transform:scale(0)} 59.5%{transform:scale(0)} 61%{transform:scale(1.5)} 62.5%{transform:scale(1)} 100%{transform:scale(1)} }
+    .sp2 { transform-origin: 50% 50%; animation-name: s2k; }
+    @keyframes s2k { 0%{transform:scale(0)} 62.5%{transform:scale(0)} 64%{transform:scale(1.5)} 65.5%{transform:scale(1)} 100%{transform:scale(1)} }
+    .sp3 { transform-origin: 50% 50%; animation-name: s3k; }
+    @keyframes s3k { 0%{transform:scale(0)} 65.5%{transform:scale(0)} 67%{transform:scale(1.5)} 68.5%{transform:scale(1)} 100%{transform:scale(1)} }
+
+    /* cursor paths */
+    .m1 { animation-name: m1k; }
+    @keyframes m1k {
+      0%{transform:translate(-40px,-40px); animation-timing-function:ease-in-out}
+      8%{transform:translate(60px,50px)}
+      19.9%{transform:translate(740px,50px)}
+      23%{transform:translate(740px,230px)}
+      34.9%{transform:translate(60px,230px)}
+      38%{transform:translate(60px,50px); animation-timing-function:ease-in-out}
+      46%{transform:translate(400px,254px)}
+      100%{transform:translate(400px,254px)}
+    }
+    .m2 { animation-name: m2k; }
+    @keyframes m2k {
+      0%{transform:translate(840px,260px); animation-timing-function:ease-in-out}
+      18%{transform:translate(770px,18px); animation-timing-function:ease-in-out}
+      40%{transform:translate(100px,102px)}
+      42%{transform:translate(100px,102px)}
+      56%{transform:translate(530px,102px); animation-timing-function:ease-in-out}
+      66%{transform:translate(560px,40px)}
+      100%{transform:translate(560px,40px)}
+    }
+    .m3 { animation-name: m3k; }
+    @keyframes m3k {
+      0%{transform:translate(-40px,270px); animation-timing-function:ease-in-out}
+      24%{transform:translate(30px,262px); animation-timing-function:ease-in-out}
+      58%{transform:translate(100px,172px)}
+      60%{transform:translate(100px,172px)}
+      68%{transform:translate(330px,172px); animation-timing-function:ease-in-out}
+      69.5%{transform:translate(100px,203px)}
+      70%{transform:translate(100px,203px)}
+      76%{transform:translate(330px,203px); animation-timing-function:ease-in-out}
+      84%{transform:translate(345px,225px)}
+      100%{transform:translate(345px,225px)}
+    }
+    .m4 { animation-name: m4k; }
+    @keyframes m4k {
+      0%{transform:translate(840px,-40px); animation-timing-function:ease-in-out}
+      20%{transform:translate(790px,200px); animation-timing-function:ease-in-out}
+      44%{transform:translate(650px,95px)}
+      46%{transform:translate(650px,95px)}
+      47.5%{transform:translate(681.8px,108.2px)}
+      49%{transform:translate(695px,140px)}
+      50.5%{transform:translate(681.8px,171.8px)}
+      52%{transform:translate(650px,185px)}
+      53.5%{transform:translate(618.2px,171.8px)}
+      55%{transform:translate(605px,140px)}
+      56.5%{transform:translate(618.2px,108.2px)}
+      58%{transform:translate(650px,95px); animation-timing-function:ease-in-out}
+      60%{transform:translate(700px,92px); animation-timing-function:ease-in-out}
+      63%{transform:translate(708px,196px); animation-timing-function:ease-in-out}
+      66%{transform:translate(598px,92px); animation-timing-function:ease-in-out}
+      70%{transform:translate(760px,250px)}
+      100%{transform:translate(760px,250px)}
+    }
+    .m5 { animation-name: m5k; }
+    @keyframes m5k {
+      0%{transform:translate(-40px,-40px); animation-timing-function:ease-in-out}
+      13%{transform:translate(0px,140px)}
+      14%{transform:translate(0px,140px)}
+      22%{transform:translate(800px,140px); animation-timing-function:ease-in-out}
+      24.5%{transform:translate(650px,0px)}
+      25%{transform:translate(650px,0px)}
+      33%{transform:translate(650px,280px); animation-timing-function:ease-in-out}
+      45%{transform:translate(250px,262px)}
+      100%{transform:translate(250px,262px)}
+    }
+  </style>
+
+  <!-- background -->
+  <rect width="800" height="280" rx="16" fill="#0d1117"/>
+  <rect width="800" height="280" rx="16" fill="url(#grid)"/>
+
+  <!-- page being built -->
+  <g class="page a">
+    <rect class="fillin a" x="60" y="50" width="680" height="180" rx="14" fill="#161b22"/>
+
+    <text class="show a" x="100" y="135" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="44" font-weight="700" textLength="430" lengthAdjust="spacingAndGlyphs" fill="url(#ng)">Chopdekar Adhrit</text>
+    <text class="show a" x="100" y="185" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="22" textLength="230" lengthAdjust="spacingAndGlyphs" fill="#ffd166">just a vibecoder</text>
+
+    <rect class="fillin cov1 fb a" x="100" y="90" width="430" height="60" fill="#161b22"/>
+    <rect class="fillin cov2 fb a" x="100" y="160" width="230" height="40" fill="#161b22"/>
+
+    <rect class="border a" x="60" y="50" width="680" height="180" rx="14" pathLength="1" fill="none" stroke-width="2"/>
+
+    <!-- selection box on name -->
+    <g class="sel a">
+      <rect x="94" y="92" width="442" height="58" fill="none" stroke="#ff5ca8" stroke-width="1" stroke-dasharray="4 3"/>
+      <rect x="91" y="89" width="6" height="6" fill="#fff" stroke="#ff5ca8"/>
+      <rect x="533" y="89" width="6" height="6" fill="#fff" stroke="#ff5ca8"/>
+      <rect x="91" y="147" width="6" height="6" fill="#fff" stroke="#ff5ca8"/>
+      <rect x="533" y="147" width="6" height="6" fill="#fff" stroke="#ff5ca8"/>
+    </g>
+
+    <!-- underline -->
+    <line class="ul a" x1="100" y1="200" x2="330" y2="200" pathLength="1" stroke="url(#ug)" stroke-width="3" stroke-linecap="butt"/>
+
+    <!-- avatar orb -->
+    <circle class="orb a" cx="650" cy="140" r="36" fill="url(#og)"/>
+    <circle class="ring a" cx="650" cy="140" r="45" pathLength="1" fill="none" stroke="#7ee787" stroke-width="2" transform="rotate(-90 650 140)"/>
+    <circle class="sp1 fb a" cx="700" cy="92" r="4" fill="#7ee787"/>
+    <circle class="sp2 fb a" cx="708" cy="196" r="4" fill="#ffd166"/>
+    <circle class="sp3 fb a" cx="598" cy="92" r="4" fill="#ff5ca8"/>
+
+    <!-- ruler guides -->
+    <rect class="gh fb a" x="0" y="139.5" width="800" height="1" fill="#bc8cff"/>
+    <rect class="gv fb a" x="649.5" y="0" width="1" height="280" fill="#bc8cff"/>
+  </g>
+
+  <!-- the swarm -->
+  <g class="cursors a">
+    <g class="m1 a">
+      <path d="M0 0 L0 17 L4.4 13.2 L7.4 20 L10 18.8 L7.1 12.2 L12.6 12.2 Z" fill="#00e5ff" stroke="#fff" stroke-width="1.2" stroke-linejoin="round"/>
+      <rect x="12" y="16" width="40" height="16" rx="4" fill="#00e5ff"/>
+      <text x="18" y="27.5" font-family="Arial,Helvetica,sans-serif" font-size="10.5" font-weight="700" fill="#0d1117">ship</text>
+    </g>
+    <g class="m2 a">
+      <path d="M0 0 L0 17 L4.4 13.2 L7.4 20 L10 18.8 L7.1 12.2 L12.6 12.2 Z" fill="#ff5ca8" stroke="#fff" stroke-width="1.2" stroke-linejoin="round"/>
+      <rect x="12" y="16" width="40" height="16" rx="4" fill="#ff5ca8"/>
+      <text x="18" y="27.5" font-family="Arial,Helvetica,sans-serif" font-size="10.5" font-weight="700" fill="#0d1117">vibe</text>
+    </g>
+    <g class="m3 a">
+      <path d="M0 0 L0 17 L4.4 13.2 L7.4 20 L10 18.8 L7.1 12.2 L12.6 12.2 Z" fill="#ffd166" stroke="#fff" stroke-width="1.2" stroke-linejoin="round"/>
+      <rect x="12" y="16" width="54" height="16" rx="4" fill="#ffd166"/>
+      <text x="18" y="27.5" font-family="Arial,Helvetica,sans-serif" font-size="10.5" font-weight="700" fill="#0d1117">prompt</text>
+    </g>
+    <g class="m4 a">
+      <path d="M0 0 L0 17 L4.4 13.2 L7.4 20 L10 18.8 L7.1 12.2 L12.6 12.2 Z" fill="#7ee787" stroke="#fff" stroke-width="1.2" stroke-linejoin="round"/>
+      <rect x="12" y="16" width="54" height="16" rx="4" fill="#7ee787"/>
+      <text x="18" y="27.5" font-family="Arial,Helvetica,sans-serif" font-size="10.5" font-weight="700" fill="#0d1117">deploy</text>
+    </g>
+    <g class="m5 a">
+      <path d="M0 0 L0 17 L4.4 13.2 L7.4 20 L10 18.8 L7.1 12.2 L12.6 12.2 Z" fill="#bc8cff" stroke="#fff" stroke-width="1.2" stroke-linejoin="round"/>
+      <rect x="12" y="16" width="34" height="16" rx="4" fill="#bc8cff"/>
+      <text x="18" y="27.5" font-family="Arial,Helvetica,sans-serif" font-size="10.5" font-weight="700" fill="#0d1117">git</text>
+    </g>
+  </g>
+</svg>
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=740&lines=hey%2C+i'm+adhrit;i+build+things+that+run+in+the+browser;games+%C2%B7+study+tools+%C2%B7+web+experiments;still+shipping." alt="Typing SVG" />
 
   <br/>
